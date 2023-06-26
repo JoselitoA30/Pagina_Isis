@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer() {
+function Footer(props) {
 
     function scrollToTop() {
         const handleClick = () => {
@@ -44,7 +44,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <button onClick={scrollToTop()} className="floating-button">↑</button>
+                <button onClick={scrollToTop()} className="floating-button">{props.subir}</button>
             </section>
 
         </div>

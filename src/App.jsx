@@ -19,13 +19,13 @@ function App() {
 
   return (
     <>
-    <Navegador/>
-    <Que/>
-    <Contexto/>
-    <Juego/>
-    <Nosotros/>
-    <Contacto/>
-    <Footer/>
+    <Navegador Isis="./src/img/Isis.png"/>
+    <Que titulo="¿Que es ISIS?"/>
+    <Contexto leerMas="Leer Mas"/>
+    <Juego Juego="Juego 🎮" entrada="./src/img/Cientificosenapuros.png"/>
+    <Nosotros Jose="Estudiante de la entidad SENA, tiene 18 años de edad y se está formando en el área de producción multimedia, se desempeña durante la creación del proyecto en: La parte del diseño visual, en lo audiovisual y en la ilustración." Camilo="Estudiante de la entidad SENA, tiene 18 años de edad y se está formando en el área de producción multimedia, es el encargado de liderar el proyecto ISIS y se desempeña durante la creación en: Programación, ilustración, diseño y gestión."/>
+    <Contacto boton="Enviar"/>
+    <Footer subir="↑"/>
 
     </>
   )

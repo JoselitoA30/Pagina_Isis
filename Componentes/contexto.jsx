@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contexto() {
+function Contexto(props) {
   return (
     <div>
         <div className="container">
@@ -23,7 +23,7 @@ function Contexto() {
                                     transmitido naturalmente de a animales a humanos. Estos pueden ser provocadas por
                                     virus, parásitos, hongos, entre otros; debido a la relación ya sea directa o
                                     indirecta con los animales.</p>
-                                <a href="#" className="btm">Another link</a>
+                                <a href="#" className="btm">{props.leerMas}</a>
                             </div>
                         </div>
                     </div>

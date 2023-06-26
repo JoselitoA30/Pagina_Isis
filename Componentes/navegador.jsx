@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navegador() {
+function Navegador(props) {
 
 
 function scrollByAmount(amount) {
@@ -22,7 +22,7 @@ function scrollByAmount(amount) {
             <div className="container">
                 <div className="row ">
                     <div className="col-6">
-                        <img className="bg-img" src="./src/img/Isis.png" alt="" />
+                        <img className="bg-img" src={props.Isis} alt="" />
                     </div>
                     <div className="col-6 d-flex justify-content-end  align-items-center">
                         <form className="d-flex" role="search">
